@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Ugly Co. - Career Day</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>The Ugly Co. at Career Day</h1>
+    <p>Empowering the next generation to fight food waste with flavor.</p>
+    <a href="#about" class="btn">Learn More</a>
+  </header>
+
+  <section id="about">
+    <h2>About the Event</h2>
+    <p>The Ugly Co. visited Career Day at <strong>Farmersville High School</strong> to showcase how we turn “ugly” fruit into delicious, sustainable snacks. Through live demos, free samples, and one-on-one chats, we connected with students ready to rethink food waste and explore careers in clean food innovation.</p>
+    <p><a href="https://www.instagram.com/reel/DIjXG8opLpy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" style="color:#ffa500;text-decoration:underline;">Watch the Reel on Instagram ↗</a></p>
+  </section>  
+
+  <section class="highlights">
+    <h2>Event Highlights</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🌱 Sustainability</h3>
+        <p>We showed how upcycled fruit helps reduce waste and support local farms.</p>
+      </div>
+      <div class="card">
+        <h3>🍑 Product Tastings</h3>
+        <p>Students sampled dried white peaches, cherries, and apricots straight from the source.</p>
+      </div>
+      <div class="card">
+        <h3>💼 Career Paths</h3>
+        <p>From creative design to operations, we shared job roles that make food better.</p>
+      </div>
+      <div class="card">
+        <h3>📸 UGC Wall</h3>
+        <p>We encouraged students to tag us using <strong>#UglyCareerDay</strong> for a chance to win some merch!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="poll">
+    <h2>What’s Your Favorite Ugly Snack? 🍑🍒</h2>
+    <p class="poll-subtext">Click to pick your favorite:</p>
+    <div class="poll-grid">
+      <div class="poll-option" onclick="vote('Peaches')">
+        <img src="assets/Diced Peaches Front.avif" alt="Diced Peaches">
+        <p>Peaches</p>
+      </div>
+      <div class="poll-option" onclick="vote('Apricots')">
+        <img src="assets/Diced Apricots Front.avif" alt="Diced Apricots">
+        <p>Apricots</p>
+      </div>
+      <div class="poll-option" onclick="vote('Nectarines')">
+        <img src="assets/Diced Nectarines Front - The Ugly Co..avif" alt="Diced Nectarines">
+        <p>Nectarines</p>
+      </div>
+      <div class="poll-option" onclick="vote('Kiwis')">
+        <img src="assets/Sliced Kiwis - The Ugly Co.avif" alt="Sliced Kiwis">
+        <p>Kiwis</p>
+      </div>
+    </div>
+    <p id="poll-response" class="poll-thanks"></p>
+  </section>  
+
+  <footer class="footer">
+    <h2>Let’s Build the Future of Food</h2>
+    <a href="#" class="btn">Explore Careers</a>
+    <p>Created by Carlos Chavez — here’s what I could’ve brought to the booth at Farmersville High.</p>
+  </footer>  
+</body>
+</html>
