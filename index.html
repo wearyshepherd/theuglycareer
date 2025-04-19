@@ -6,6 +6,12 @@
   <title>The Ugly Co. - Career Day</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  <script>
+    function vote(snack) {
+      const response = document.getElementById('poll-response');
+      response.textContent = `You voted for ${snack}! Thanks for letting us know 🙌`;
+    }
+  </script>
 <body>
   <header class="hero">
     <h1>The Ugly Co. at Career Day</h1>
